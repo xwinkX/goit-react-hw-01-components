@@ -37,9 +37,9 @@ Profile.propTypes = {
     location: PropTypes.string.isRequired,
     avatar: PropTypes.string.isRequired,
     stats: PropTypes.shape({
-    followers: PropTypes.string.isRequired,
-    view: PropTypes.string.isRequired,
-    likes: PropTypes.string.isRequired
+    followers: PropTypes.number.isRequired,
+    views: PropTypes.number.isRequired,
+    likes: PropTypes.number.isRequired
     })
 }
 
