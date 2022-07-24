@@ -1,5 +1,5 @@
 // import css from 'components/FriendList/FriendList.module.css';
-import {P, Span, Li, Img} from "components/FriendList/FriendList.styled"
+import {P, Span, Li} from "components/FriendList/FriendList.styled"
 
 export default function FriendListItem({ avatar, name, isOnline }) {
     return (
