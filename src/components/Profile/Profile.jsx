@@ -1,8 +1,8 @@
 import PropTypes from "prop-types";
 import css from 'components/Profile/Profile.module.css';
 
-export const Profile = ({username, tag, location, avatar, stats}) => {
-    return <div className={css.profile}>
+export default function Profile({username, tag, location, avatar, stats}) {
+    return ( <div className={css.profile}>
         <div className={css.description}>
             <img
                 src={avatar}
@@ -28,7 +28,7 @@ export const Profile = ({username, tag, location, avatar, stats}) => {
                 <span className={css.quantity}>{stats.likes}</span>
             </li>
         </ul>
-    </div>;
+    </div>);
 }
 
 Profile.propTypes = {

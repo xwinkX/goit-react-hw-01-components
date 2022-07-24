@@ -1,0 +1,5 @@
+.transaction_history {
+    border: 3px solid black;
+    border-collapse: collapse ;
+    text-align: center;
+}
